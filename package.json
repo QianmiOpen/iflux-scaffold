@@ -1,0 +1,33 @@
+{
+  "name": "iflux-scaffold",
+  "version": "1.0.0",
+  "description": "iflux scaffold",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hufeng/iflux-scaffold.git"
+  },
+  "keywords": [
+    "iflux",
+    "scaffold"
+  ],
+  "author": "hufeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hufeng/iflux-scaffold/issues"
+  },
+  "homepage": "https://github.com/hufeng/iflux-scaffold#readme",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "figlet": "^1.1.1"
+  },
+  "bin": {
+    "iflux": "./bin/iflux",
+    "iflux-startproject": "./bin/iflux-startproject",
+    "iflux-startapp": "./bin/iflux-startapp",
+    "iflux-run": "./bin/iflux-run"
+  }
+}

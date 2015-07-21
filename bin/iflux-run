@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+
+program
+  .option('-p, --port', 'specify port')
+  .parse(process.argv);
+
+var args = program.args;
+console.log(args.join(' '));
