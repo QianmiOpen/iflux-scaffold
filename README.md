@@ -14,6 +14,33 @@ Usage:
   ```sh
   npm install -g iflux-scaffold
 
+  ➜  iflux-scaffold git:(master) iflux
+                                       ) (`-.
+                                        ( OO ).
+  ,-.-')    ,------.,--.     ,--. ,--. (_/.  \_)-.
+  |  |OO)('-| _.---'|  |.-') |  | |  |  \  `.'  /  
+  |  |  \(OO|(_\    |  | OO )|  | | .-') \     /\  
+  |  |(_//  |  '--. |  |`-' ||  |_|( OO ) \   \ |  
+ ,|  |_.'\_)|  .--'(|  '---.'|  | | `-' /.'    \_)
+(_|  |     \|  |_)  |      |('  '-'(_.-'/  .'.  \  
+  `--'      `--'    `------'  `-----'  '--'   '--'
+
+  Usage: iflux [options] [command]
+
+
+  Commands:
+
+    new [project-name]  create a new project
+    newapp [app-name]   create a new app
+    run                 run current project
+    update              sync react starter
+    help [cmd]          display help for [cmd]
+
+  Options:
+
+    -h, --help     output usage information
+    -V, --version  output the version number
+
   #create project
   iflux new hello
 
