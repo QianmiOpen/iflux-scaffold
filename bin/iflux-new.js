@@ -32,8 +32,6 @@ if (isExist) {
   return;
 }
 
-//create repo
-fsx.ensureDirSync(repo);
 
 //判断repo目录中是不是已经git了react-starter
 _.promiseExists(repo + '/react-starter')
