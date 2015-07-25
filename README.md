@@ -7,3 +7,16 @@
 大大的增强了我们的开发体验。
 
 Ok，It's time to build it.
+
+
+Usage:
+  ```sh
+  npm install -g iflux-scaffold
+
+  iflux new hello
+
+  npm install
+
+  npm start
+
+  ```
