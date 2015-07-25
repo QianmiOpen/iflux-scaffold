@@ -8,15 +8,20 @@
 
 Ok，It's time to build it.
 
+请使用**node0.12+**版本
 
 Usage:
   ```sh
   npm install -g iflux-scaffold
 
+  #create project
   iflux new hello
 
   npm install
 
   npm start
+
+  #create app
+  iflux newapp blog
 
   ```

@@ -72,11 +72,18 @@ function copyReactStarter() {
 }
 
 
+/**
+ * 删除.git目录
+ */
 function deleteGitDir() {
   var dest = process.cwd() + '/' + projName + '/.git';
   return _.removeDir(dest);
 }
 
+
+/**
+ * 结束，成功创建项目
+ */
 function ok() {
   console.log(("yeah, you can cd " + projName + ' and npm install').yellow);
 }
