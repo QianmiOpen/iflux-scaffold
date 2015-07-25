@@ -21,13 +21,15 @@
   },
   "homepage": "https://github.com/hufeng/iflux-scaffold#readme",
   "dependencies": {
+    "colors": "^1.1.2",
     "commander": "^2.8.1",
-    "figlet": "^1.1.1"
+    "es6-promise": "^2.3.0",
+    "fs-extra": "^0.22.1"
   },
   "bin": {
-    "iflux": "./bin/iflux",
-    "iflux-startproject": "./bin/iflux-startproject",
-    "iflux-startapp": "./bin/iflux-startapp",
-    "iflux-run": "./bin/iflux-run"
+    "iflux": "./bin/iflux.js",
+    "iflux-new": "./bin/iflux-new.js",
+    "iflux-newapp": "./bin/iflux-newapp.js",
+    "iflux-update": "./bin/iflux-update.js"
   }
 }
