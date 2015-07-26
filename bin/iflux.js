@@ -9,7 +9,6 @@ var figlet = require('figlet');
 var program = require('commander');
 
 //iflux命令时，显示iflux的ascii font
-console.log(process.argv)
 if (process.argv.length === 2) {
   //figlet
   console.log(figlet.textSync('iflux', {
