@@ -1,6 +1,6 @@
 {
   "name": "iflux-scaffold",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "iflux scaffold",
   "main": "index.js",
   "scripts": {
