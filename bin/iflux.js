@@ -23,6 +23,8 @@ program
   .version(require('../package.json').version)
   .command('new [project-name]', 'create a new project')
   .command('newapp [app-name]', 'create a new app')
-  .command('run', 'run current project')
   .command('update', 'sync react starter')
   .parse(process.argv);
+
+
+  console.log('hello');
